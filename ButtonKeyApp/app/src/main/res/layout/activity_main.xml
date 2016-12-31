@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.vishwakarma.buttonkeyapp.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Enter Key"
+        android:focusable="false"/>
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="*\n "
+        android:id="@+id/starbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignRight="@+id/seventhbtn"
+        android:layout_alignEnd="@+id/seventhbtn"
+        />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="0\n_"
+        android:id="@+id/zerobtn"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/eightbtn"
+        android:layout_alignStart="@+id/eightbtn"
+        android:layout_alignRight="@+id/eightbtn"
+        android:layout_alignEnd="@+id/eightbtn" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="#\n "
+        android:id="@+id/hashbtn"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/ninghtbtn"
+        android:layout_alignEnd="@+id/ninghtbtn" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="7\nPQRS"
+        android:id="@+id/seventhbtn"
+        android:layout_above="@+id/starbtn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="8\nTUV"
+        android:id="@+id/eightbtn"
+        android:layout_below="@+id/fifthbtn"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="9\nWXYZ"
+        android:id="@+id/ninghtbtn"
+        android:layout_above="@+id/hashbtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="4\nGHI"
+        android:id="@+id/fourthbtn"
+        android:layout_above="@+id/seventhbtn"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="5\nJKL"
+        android:id="@+id/fifthbtn"
+        android:layout_below="@+id/firstbtn"
+        android:layout_alignLeft="@+id/secondbtn"
+        android:layout_alignStart="@+id/secondbtn" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="6\nMNO"
+        android:id="@+id/sixthbtn"
+        android:layout_above="@+id/ninghtbtn"
+        android:layout_alignRight="@+id/ninghtbtn"
+        android:layout_alignEnd="@+id/ninghtbtn" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="1\n "
+        android:id="@+id/firstbtn"
+        android:layout_above="@+id/fourthbtn"
+        android:layout_toLeftOf="@+id/fifthbtn"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="2\nABC"
+        android:id="@+id/secondbtn"
+        android:layout_above="@+id/fifthbtn"
+        android:layout_alignLeft="@+id/eightbtn"
+        android:layout_alignStart="@+id/eightbtn" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:text="3\nDEF"
+        android:id="@+id/thirdbtn"
+        android:layout_above="@+id/sixthbtn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+
+
+
+        android:layout_alignLeft="@+id/sixthbtn"
+        android:layout_alignStart="@+id/sixthbtn" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:id="@+id/clrbtn"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
